@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULA HUB</title>
+    <link rel="stylesheet" href="Formula.css">
+    <script defer src="Formula.js"></script>
+</head>
+<body>
+    <header>
+        FORMULA HUB
+    </header>
+
+    <!-- Search Formula Section -->
+    <section>
+        <h2>Search for a Formula</h2>
+        <input type="text" class="search-bar" placeholder="Search for a formula...">
+        <button class="formula-button">Search</button>
+    </section>
+
+    <!--Section for Standad Form-->
+    <section>
+        <h2>Standard Form</h2>
+        <p>Standard form is a way of writing numbers that makes it easier to understand and work with very large or very small numbers. It's also known as standard index form or scientific notation.</p>
+        <p class="formula-box">Formula: A * 10 <sup>n</sup></p>
+        <p><strong>Example:</strong>
+                <ol>* 5,000 = 5 * 10<sup>3</sup></ol>
+                <ol>* 0.000000002 = 2 * 10<sup>-9</sup></ol>
+        </p>
+    </section>
+
+    <!--Section for Quadratic Equation-->
+    <section>
+        <h2>Quadratic Equation</h2>
+        <p>The quadratic equation is used to find the solutions (roots) of a second-degree polynomial equation. It is represented as:</p>
+        <p class="formula-box">Formula: a<sup>2</sup> + b<sup>2</sup> = c<sup>2</sup></p>
+        <p><strong>Where:</strong><br>
+            <strong>a,b and c</strong> are constants<br>
+            while <strong>c</strong> is the variable
+        </p>        
+    </section>
+
+    <!--Section for AP and GP-->
+    <section>
+        <h2>Arithmetic Progression</h2>
+        <p>Arithmetic Progression (AP) is a sequence of numbers in order that the common difference of any two successive numbers is a constant value. The general form of an Ap is given by: <mark>a, a + d, a + 2d, a + 3d</mark></p>
+        <p class="formula-box">First Term of AP: a + (n-1)d</p>
+        <p class="formula-box">nth Term of an AP: a<sub>n</sub>= a + (n-1)d</p>
+        <p class="formula-box">Sum of N Term of AP: s<sub>n = n/2[2a + (n-1)d]</sub></p>
+        <p class="formula-box"> Sum of AP when the Last Term is Given. <br> s = n/2 (first term + last term)</p>
+    </section>
+
+</body>
+
+<!-- Footer Section -->
+<footer>
+    <div class="footer-content">
+        <p><strong>About Formula Hub:</strong></p>
+        <p>Formula Hub is a dedicated platform for providing easy access to mathematical, scientific, and engineering formulas. Our mission is to simplify learning by offering a one-stop solution for students, educators, and enthusiasts to find the formulas they need for success.</p>
+        
+        <p>&copy; 2024 Formula Hub. All rights reserved.</p>
+    </div>
+
+    <div class="comments-section">
+        <h3>Leave a Comment</h3>
+        <form action="#" method="post">
+            <textarea name="comment" id="comment" rows="4" placeholder="Share your thoughts..."></textarea><br>
+            <button type="submit" class="comment-button">Submit Comment</button>
+        </form>
+    </div>
+
+    <!-- Support Section -->
+    <div class="support-section">
+        <h3>Support Formula Hub</h3>
+        <p>If you find our platform helpful, consider supporting us:</p>
+        <button class="support-button" onclick="openDonateModal()">Donate</button>
+    </div>
+
+    <!-- Modal for Bank Details -->
+<div id="donate-modal" class="modal">
+    <div class="modal-content">
+        <span class="close-button" onclick="closeDonateModal()">&times;</span>
+        <h3>Bank Details</h3>
+        <p><strong>Bank Name:</strong> United Bank For Africa</p>
+        <p><strong>Account Name:</strong> Gekpamah Kelvin Newman</p>
+        <p><strong>Account Number:</strong> 2311156193</p>
+        <p>Thank you for supporting Formula Hub!</p>
+    </div>
+</div>
+
+</footer>
+
+</html>
